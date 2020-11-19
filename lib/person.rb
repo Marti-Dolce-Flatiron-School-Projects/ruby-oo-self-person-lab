@@ -93,8 +93,3 @@ class Person
     end
   end
 end
-# def hygiene=(num)
-#   @hygiene = num
-#   @hygiene = 10 if @hygiene > 10
-#   @hygiene = 0 if @hygiene.negative?
-# end
