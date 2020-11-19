@@ -25,12 +25,7 @@ class Person
   # both happiness and hygiene should
   # be 10 and 0 respectively
   # (1). What is the persons.happiness.index?
-  # def happiness=(num)
-  #   @happiness = num
-  #   @happiness = 10 if @happiness > 10
-  #   @happiness = 0 if @happiness < 0
-  # end
-  #
+
   def happiness=(x)
     @happiness = x
     if @happiness > 10
